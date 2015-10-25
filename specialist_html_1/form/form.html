@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Форма обратной связи</title>
+	</head>
+	<body>
+		<h1>Давайте познакомимся</h1>
+        <form action="">
+            <div>
+                <label>Ваше имя:</label>
+                <input type="text" name="fname"/>
+            </div>
+            <div>
+                <label>Ваша фамилия:</label>
+                <input type="text" name="fname"/>
+            </div>
+            <div>
+                <label>Кто вы?</label>
+                <input type="radio" name="r" value="m" checked/>мужчина
+                <input type="radio" name="r" value="w"/>женщина
+            </div>
+            <div>
+                <label>Чем занимаетесь?</label>
+                <select name="s">
+                    <option>школьник</option>
+                    <option>студент</option>
+                    <option>безработный</option>
+                    <option>рабочий класс</option>
+                    <option>офисный планктон</option>
+                    <option>креативный класс</option>
+                    <option>интеллигент</option>
+                    <option>олигарх</option>
+                </select>
+            </div>
+            <div>
+                <label></label>
+                <textarea name="txt" cols="30" rows="10">Напишите коротко о себе:</textarea>
+            </div>
+            <div>
+                <label>Я не буду воровать записи курсов</label>
+                <input type="checkbox" name="chk"/>
+            </div>
+            <div>
+                <input type="submit" value="Послать отзыв"/>
+                <input type="reset" value="Очистить форму"/>
+            </div>
+	    </form>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <title>Курсы JavaScript</title>
+        <style>
+            table caption{font: 18px tahoma;}
+            table{width: 800px; border-collapse: collapse;}
+            th{color: black; background: red;}
+            tr:nth-child(even){background: #b5d;}
+            tr:nth-child(odd){background: #ddd;}
+            th:nth-child(n+2), td:nth-child(n+2){
+                width: 120px;
+                text-align: center;
+            }
+            tr:last-child{
+                text-align: right;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body lang="ru">
+    <table>
+        <caption>Курсы JavaScript</caption>
+        <tr>
+            <th>Название</th><th>Ак.часов</th><th>Дата</th><th>Комплекс</th>
+        </tr>
+        <tr>
+            <td>JavaScript. Уровень 1. Основы веб-программирования</td><td>05.06.2013</td><td>Стилобат</td><td>24</td>
+        </tr>
+        <tr>
+            <td>JavaScript. Уровень 2. Расширенные возможности</td><td>05.08.2013</td><td>Таганский</td><td>16</td>
+        </tr>
+        <tr>
+            <td>Использование jQuery. Уровень 1</td><td>14.11.2013</td><td>Стилобат</td><td>16</td>
+        </tr>
+        <tr>
+            <td>AJAX. Разработка веб-приложений для Web 2.0</td><td>18.10.2013</td><td>Радио</td><td>24</td>
+        </tr>
+        <tr>
+            <td colspan="3">Всего Ак. часов</td><td>80</td>
+        </tr>
+    </table>
+    </body>
+</html>
